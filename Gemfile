@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rack', '~> 1.4.1'
 gem 'rake', '~> 0.9.2'
 gem 'rails', '~> 3.2.12'
-gem 'json', '~> 1.5.5'
+gem 'json', '~> 1.7.7'
 gem 'chronic', '~> 0.6.7'
 gem 'pony', '~> 1.1'  # unusual version number
 gem 'graylog2-declarative_authorization', '~> 0.5.2', :require => 'declarative_authorization'
@@ -27,7 +27,7 @@ end
 
 group :development do
   # gem 'ruby-prof', '~> 0.10.5'  # works nice with NewRelic RPM Developer Mode
-  gem 'passenger', '~> 3.0.17'
+  gem 'passenger', '~> 4.0.5'
 end
 
 group :test do
